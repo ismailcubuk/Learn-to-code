@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+
+        .container {
+            /* kutu arka plan*/
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+
+            /*flex-direction: column;*/
+            /*tam tersine çevirir kuralları - yukarı aşağı */
+
+            flex: row;
+            /*yan yana başlangıç*/
+
+            justify-content: flex-end;
+            /*soldan sağa */
+
+            align-items: flex-start;
+            /*yukarıdan aşağı*/
+
+            flex-wrap: wrap;
+            /*sığmayanı aşağı*/
+
+            min-height: 150px;
+            /*minimum 100px oto yükselt*/
+
+            background-color: black;
+        }
+
+        .box {
+            /*kutu içinde öne çıkanlar*/
+            text-align: center;
+            background-color: antiquewhite;
+            width: 200px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="box">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="box">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="box">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="box">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="box">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="box">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="box">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="box">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        
+
+
+</body>
+
+</html>

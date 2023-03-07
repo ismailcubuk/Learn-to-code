@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+
+let value;
+
+const numbers = [43,56,33,23,44,35,5];
+
+numbers[2] = 1000 // 2. sıradaki sayıyı 1000 yaptı
+value = numbers;
+
+// index of
+
+value = numbers.indexOf(1000);
+
+//arrayin sonuna değer ekleme - push
+
+numbers.push(2000); // sonuna eklemek
+value=numbers;
+
+numbers.unshift(3000); // başa eklemek
+value=numbers;
+
+//arrayin sonundan değer silmek - pop
+
+numbers.pop() // sondan silmek
+value=numbers;
+
+numbers.shift() // bastan silmek 
+value=numbers;
+
+numbers.splice(0,3); // aralık silmek
+value=numbers;
+
+numbers.reverse(); // ters çevirmek
+value=numbers;
+
+value=numbers.sort() // ilk rakama göre sıralama
+
+value=numbers.sort(function(x,y){ // küçükten büyüğe sıralama
+    return x-y;
+})
+
+value=numbers.sort(function(x,y){ // büyükten küçüğe sıralama
+    return y-x;
+})
+
+
+
+console.log(value);
+</script>
+</html>

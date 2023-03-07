@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Document</title>
+    <style>
+        .header {
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 18px;
+            background-color: red;
+        }
+
+        .container {
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>1 videoda javascript</h1>
+    </div>
+    <hr>
+    <div class="container"></div>
+
+    <script>
+
+        // SAYI
+
+        var sayi1 = 20;
+        var sayi2 = 30;
+        var sayi3 = 90;
+
+        alert("Toplamları: " + (sayi1 + sayi2 + sayi3))
+        alert("Çıkartma: " + (sayi3 - sayi2 - sayi1))
+
+
+
+
+        // YAZI
+
+        var a = "dünyanın ";
+        var b = "en iyi ";
+        var c = "oyuncusu";
+
+        alert(a + b + c);
+
+
+
+
+        // ARRAY
+
+                     0       1       2   3
+        var array = ["java","python","c++","c"]
+        alert(array[2])
+        alert(array[4])
+        array[4]="php"; //array ekleme
+        alert(array[4])
+        alert(array.length); //array saydırma
+
+
+
+
+        // FOR DÖNGÜSÜ
+
+        for (var i = 3; i < 10; i++){
+            console.log("i değeri: " + i)
+        }
+
+
+
+
+
+        // WHİLE DÖNGÜSÜ
+
+        var i = 0;
+        while (i < 20){
+            console.log("i değeri: " +i);
+            i += 2;
+        }
+
+
+
+        // ASD
+
+        var sayilar = [32,5,9,100,-6,90];
+
+        console.log ("array elamanları...")
+
+        for(var i = 0; i < sayilar.length;i++){
+            console.log(sayilar[i]);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            // let
+            // const
+
+        // MATH
+
+
+        // value = Math.sqrt(16)
+        // value = Math.sqrt(31)
+
+        // value = Math.abs(-10)
+
+
+        // value = Math.pow(8, 3)
+        // value = Math.pow(4, 2)
+
+
+        // value = Math.max(10, -1, 100, 32)
+        // value = Math.min(10, -1, 100, 32)
+
+        // value = Math.random();
+        // value = Math.floor(Math.random() * 20 + 1);
+
+
+
+    </script>
+</body>
+
+</html>

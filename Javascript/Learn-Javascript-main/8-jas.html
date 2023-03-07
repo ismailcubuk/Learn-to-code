@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+</body>
+<script>
+    /* while döngüleri
+    
+    let i = 0;
+    
+    while(i < 10){
+    
+        console.log(i);
+        i++;
+        //i += 1
+    }
+    */
+
+    /*break ve continue
+    
+    let i = 0;
+    
+    while(i<10){
+    
+        console.log(i);
+        if (i == 5) {
+            break;
+        }
+        i++;
+    }
+    
+    */
+
+    /*
+    let i = 0;
+
+    while (i < 10){
+        if(i == 3 || i == 5){ //3 ve 5 i atla
+            i++;
+            continue;
+        }
+        console.log(i);
+        i++;
+    }
+    */
+
+
+/*do while               ?????????
+
+let i = 0;
+
+do{
+    console.log(i);
+    i++;
+}while(i<10);
+*/
+
+//while = for
+
+
+// const langs = ["dünyanın","en iyi","oyuncusuuuu"];
+
+// let index = 0;
+
+// while(index < langs.length){
+
+//     console.log(langs[index]);
+
+//     index++;
+// }
+
+
+// const langs = ["dünyanın","en iyi","oyuncusuuuu"];
+// for (let index=0;index < langs.length;index++){
+
+//     console.log(langs[index]);
+// }
+
+//call back
+// const langs = ["dünyanın","en iyi","oyuncusuuuu"];
+// langs.forEach(function(lang){
+//     console.log(lang);
+// })
+
+
+/*map
+
+const users = [
+    {name:"mustafa", age:25},
+    {name:"zeynep", age:30},
+    {name:"ali", age:40},
+];
+
+
+const names = users.map(function(user){
+    return user.name;
+});
+const ages = users.map(function(user){
+    return user.age;
+});
+
+console.log(names)
+console.log(ages)
+*/
+
+const user = {
+    name:"ismail",
+    age: 26
+};
+
+for(let key in user){
+    console.log(key,user[key])
+}
+
+</script>
+
+</html>

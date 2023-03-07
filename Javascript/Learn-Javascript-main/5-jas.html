@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+
+// karşılaştırma operatörleri
+
+// ==
+// ===
+// !=   eşit değil midir?
+// !==
+// >
+// <
+// >=
+// <=
+
+
+// mantıksal bağlaçlar
+
+//not operatörü =  ! true false çıkar , false true
+console.log(!(2 != 2));
+
+//and operatörü = 2 koşulda aynı çıkmalı
+console.log( (2 == 2) && ("ismail" == "ismail"));
+
+//or operatörü = 1 true bile true / hepsi false false
+console.log ((4 == 2) || ("ismail" == "ismail"));
+
+
+const error = false; //true olursa kabul ediyor 
+if (error == true){
+    console.log ("hata verdi")
+} 
+else{
+    console.log("hata oluşmadı") //else if çalışmaz ise çalışır
+}
+
+
+const user = "shanty"
+if (user === "shanty"){
+    console.log("kullanıcı bulundu")
+}
+else{
+    console.log("kullanıcı bulunamadı")
+}
+
+
+//else if
+const process = "3"
+
+if (process === "1"){
+    console.log("işlem 1")   //ilk kontrol
+}
+else if (process === "2"){
+    console.log("işlem 2")
+}
+else if (process === "3"){
+    console.log("işlem 3")
+}
+else if (process === "4"){  // son kontrol
+    console.log("işlem 4")
+}
+else{
+    console.log("bu kim amk") // bulunamazsa
+}
+
+
+//ternary operator
+
+const number = 100
+
+if (number === 100){
+    console.log("sayı 100")
+}
+else{
+    console.log("sayı 100 değil")
+}
+
+console.log(number === 100 ? "sayı 100'e eşit" : "sayı 100 değil") // ? true : false
+
+
+const islem = 22;
+
+switch(islem){
+    case 11:
+        console.log("işlem 11");
+        break; // işlemi bitir
+    case 22:
+        console.log("işlem 22");
+        break;
+    case 33:
+        console.log("işlem 33");
+        break;
+    default: // else ile aynı
+        console.log("geçersiz")
+}
+
+
+
+
+</script>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div>
+    <h1>My Favourite Foods</h1>
+    <ul>
+        <li>Hamburger</li>
+        <li>Kumpir</li>
+        <li>iskender</li>
+    </ul>
+</div>
+
+
+
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+ReactDOM.render(
+  <div>
+    <h1 className="heading">My Favourite Foods</h1>
+    <div className="imgb"> //hata .imgb img
+      <img className="imgb" src="https://i2.milimaj.com/i/milliyet/75/0x410/6204e25b86b247177892750c.jpg" />
+      <img className="imgb" src="https://i4.hurimg.com/i/hurriyet/75/750x422/5f9c24c00f25442cb0cd76c1.jpg" />
+      <img className="imgb" src="https://i.lezzet.com.tr/images-xxlarge-recipe/citir-patates-77942f15-e1b3-42a1-9a7d-3ca5b9e18a8d.jpg" />
+    </div>
+  </div>,
+  document.getElementById("root")
+);

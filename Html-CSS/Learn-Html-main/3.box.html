@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1 {
+            background: gray;
+            border-width: 10px;
+            border-color: red;
+            border-style: solid;
+            border-radius: 10px;
+            padding-left: 10px;
+
+        }
+
+        #box1 h1 {
+            border: 1px red solid;
+            margin-top: -4px;
+        }
+
+        #box1 p {
+            border: 1px red solid;
+            margin-top: -20px;
+        }
+
+        #box2 {
+            background-color: aqua;
+            border-left-style: solid;
+            border-top-style: dotted;
+            border-width: 10px;
+        }
+
+        .boxs1 {
+            background: grey;
+            width: 100%;  /*ekran yarısına sabitledi*/
+            border-width: 5px;
+            border-color: brown;
+            border-style: solid;
+            display: flex;
+            flex-direction:row
+        }
+
+        .box {
+            background-color: green;
+            width: 200px;
+            height: 200px;
+            margin: 10px 10px 20px 30px;
+            /* dış boşluk saat yönü 12=top */
+            padding: 10px 20px 30px 40px;
+            /* iç boşluk */
+        }
+        .box3{
+            height: 50px;
+            width: 5000px;
+            max-width: 500px;
+            background-color: bisque;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div id="box1">
+        <h1>box1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, illo.</p>
+    </div>
+    <br>
+    <div id="box2">
+        <h1>box1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, illo.</p>
+    </div>
+
+    <div class="boxs1">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolore?</div>
+        <div class="box">box3</div>
+        <div class="box">box4</div>
+    </div>
+    <div class="box3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae veritatis, ipsum dolor consectetur illo, eveniet facere, distinctio maxime debitis reiciendis alias esse est aperiam ad similique tempora! Consequatur reiciendis recusandae modi velit. Iure illo rerum, consequatur autem placeat laudantium perspiciatis cupiditate dolore esse dolorum, quam animi recusandae expedita natus distinctio adipisci ipsa suscipit quod explicabo! Voluptates autem placeat commodi voluptatibus sapiente quae iure expedita nulla aspernatur. At, officia doloremque provident explicabo ut quidem neque eos reiciendis enim ipsum delectus quis recusandae hic mollitia necessitatibus, quisquam accusamus eum repellat vero quia aliquid corporis assumenda! Quaerat odit amet libero quo ducimus? Quisquam?</div>
+</body>
+
+</html>

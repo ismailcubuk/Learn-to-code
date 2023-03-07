@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+//fonksiyon
+
+function merhaba(){
+    console.log("merhaba");
+}
+
+merhaba()
+
+
+function id (name = "ADINI GİR",age = "YAŞINI GİR"){
+    if (typeof name === "undefined") name = "adınızı girin"  
+    if (typeof age === "undefined") age = "yaşınızı girin"
+    console.log(`isim: ${name} yaş: ${age}`);
+}
+
+id("ismail", "26")
+id("ismail", "29")
+id()
+
+
+
+//return
+
+// function square(x) {
+//     console.log(x*x);
+// }
+// function cube(x) {
+//     console.log(x*x*x);
+// }
+
+// let a = square(3);
+// a = cube(a);
+
+function square(x) {
+    return x*x; //retun fonksiyonu sonlandırır
+}
+function cube(x) {
+    return x*x*x;
+}
+
+// let a = cube(square(3)) // alttakiyle aynı
+let a = square(3);
+a = cube(a);
+
+console.log(a);
+
+// const merhaba = function()
+
+const database = {
+    host: "localhost",
+    add:function(){
+        console.log("eklendi")
+    },
+    get:function(){
+        console.log("elde edildi")
+    },
+    update:function(){
+        console.log(`id: ${id} güncellendi`)
+    },
+    delete:function(){
+        console.log(`id: ${id} silindi`)
+    },
+}
+
+console.log(database.host)
+
+database.delete(80)
+
+
+</script>
+</html>

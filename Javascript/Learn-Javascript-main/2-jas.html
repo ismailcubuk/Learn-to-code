@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+</body>
+<script>
+
+    const name = "ismail cubuk"
+    const department = "bilisim"
+    const salary = "1000"
+    //  \n = alt satır
+    // const a = "isim: " + name + "\n" + "departman: " + department + "\n" + "maas" + salary
+    // altgr + noktalı virgül = ``
+
+    const a = `isim:${name}\ndepartman:${department}\nmaaş:${salary}`
+
+    console.log(a)
+
+    // const html = "<ul> " +
+    //     "<li>" + name + "</li>" +
+    //     "<li>" + department + "</li>" +          //eski
+    //     "<li>" + salary + "</li>" +
+    //     "</ul>";
+
+function z(){
+    return "merhaba";
+}
+
+    const html = `
+    <ul>
+    <li>${name}</li>
+    <li>${department}</li>
+    <li>${salary}</li>
+    <li>${10/2}</li>
+    <li>${z()}</li>
+    </ul>    
+    `;
+
+    document.body.innerHTML = html;
+
+</script>
+
+</html>

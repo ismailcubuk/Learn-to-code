@@ -1,0 +1,380 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+
+div {
+    display: block;
+}
+
+.page-preview {
+    height: 100%;
+}
+
+/* TOPBAR */
+
+.topbar {
+    border-bottom: 1px solid black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: 5rem;
+}
+
+.logo img {
+    width: 64px;
+    height: 32px;
+}
+
+.menu {
+    display: flex;
+    position: absolute;
+    right: 5rem;
+}
+
+.menu i {
+    font-size: 24px;
+}
+
+/* SECTİON */
+
+.section1 {
+    background-color: #F0F0F0;
+    display: flex;
+    width: 100%;
+    height: 780px;
+}
+
+/* LEFT */
+
+.section1left {
+    width: 90%;
+    position: relative;
+    padding: 0px;
+}
+
+.section1left img {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    display: block;
+    object-fit: scale-down;
+}
+
+/* RİGHT */
+
+.section1right {
+    margin-right: 260px;
+    padding: 200px 150px 0px 0px;
+}
+
+.section1right h1 {
+    font-size: 62px;
+    color: rgba(0, 0, 0, 0.707);
+    line-height: 62px;
+
+}
+
+.section1right h4 {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.freepik {
+    text-decoration: underline;
+    color: orangered;
+}
+
+.section1right button {
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 30px 70px;
+    margin: 50px 0px
+}
+
+.freepik:hover {
+    cursor: pointer;
+}
+
+.section1right button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 68, 0, 0.562);
+}
+
+/* SECTİON 2 */
+
+.section2 {
+    background-color: #EA5F4D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.section2 h2 {
+    color: white;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 697px;
+}
+
+.section2 p {
+    width: 674px;
+    height: 77px;
+    text-align: center;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.section2 p span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* SECTİON 2 CONTAİNER */
+
+.section2container {
+    display: flex;
+    width: 1140px;
+    height: 429px;
+    gap: 30px;
+}
+
+.section2container1 {
+    font-weight: 600;
+    font-size: 24px;
+    width: 100%;
+    padding: 30px;
+    background-color: white;
+}
+
+.section2container1 h3 {
+    padding-bottom: 20px;
+}
+
+.section2container1 ul {
+    margin-bottom: 10px;
+    margin-left: 1.1em;
+    list-style: none;
+}
+
+.section2container1 ul li {
+    font-size: 1.25rem;
+}
+
+/* SECTİON 3 */
+
+.section3 {
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/9a2dd47d54f850cc93604570/fgfgfggggggggg-min.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+
+    /* width: 1747px;
+    height: 1080px; */
+    /* background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: visible; */
+}
+
+/* CONTAİNER 1 */
+
+.section3container1 {
+    margin-left: 24rem;
+    width: 676px;
+    height: 315px;
+    line-height: 4rem;
+}
+
+.section3container1 h2 {
+    font-size: 60px;
+}
+
+.section3container1 h4 {
+    line-height: 1.4;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px 90px 0 0;
+}
+
+.section3container1 p {
+    line-height: 1.4;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+}
+
+.section3container1 p span {
+    text-decoration: underline;
+}
+
+.section3container1 p span:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* CONTAİNER 2 */
+
+.section3container2 {
+    background-color: white;
+    opacity: 0.8;
+    margin-left: 24rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 787px;
+}
+
+
+.container-layout1 {
+    padding: 20px 0 0 20px;
+    width: 261px;
+    height: 311px;
+}
+
+.container-layout1 i {
+    background-color: orangered;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    font-size: 38px;
+}
+
+.container-layout1 h5 {
+    font-size: 20px;
+    margin: 30px 0 0;
+}
+
+.container-layout1 p {
+    margin: 25px 0 0;
+}
+
+/* SECTİON 4 */
+
+.section4 {
+    background-color: #3B413F;
+    color: white;
+    padding-left: 24rem;
+    width: 100%;
+    height: 568px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* LEFT CONTAİNER */
+
+.section4leftcontainer {
+    padding: 30px 25px;
+}
+
+.section4leftcontainer h2 {
+    font-size: 60px;
+    margin: 0 5px 0 0;
+}
+
+.section4leftcontainer p {
+    margin: 20px 10px 0 0;
+    font-size: 24px;
+}
+
+.mailinput {
+    display: flex;
+    gap: 15px;
+    width: 545px;
+    height: 57.56px;
+}
+
+.mailinput input {
+    width: 100%;
+    padding: 10px 12px;
+    border: none;
+    outline: none;
+}
+
+.mailinput button {
+    padding: 9px 43px 11px;
+    background-color: #EA5F4D;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.mailinput button:hover {
+    background-color: #e3786a;
+    cursor: pointer;
+}
+
+
+/* RİGHT CONTAİNER */
+
+.rightcontainerinside {
+    list-style: none;
+    padding: 30px 30px 30px 140px;
+}
+
+.rightcontainerinside li:before {
+    content: '✓';
+}
+
+.rightcontainerinside li {
+    font-size: 20px;
+    margin: 0 0 0 22px;
+    line-height: 2.5rem;
+}
+
+/* SECTİON 5 */
+
+.section5 {
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid blue;
+}
+
+.section5container h2 {
+    border: 2px solid red;
+    margin: 60px 0 0;
+    font-size: 60px;
+    text-align: center;
+}
+
+.section5container h6 {
+    margin: 9px 0 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bio{
+    border: 2px solid black;
+}
+.bioleft{
+    display: flex;
+}
+.bioleft img{
+    width: 223px;
+    height: 223px;
+    border: 5px solid orangered;
+    border-radius: 100%;
+    object-position: -5rem;
+    object-fit: cover;
+    background-color: #EFF0F2;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-size: 1.5em;
+        }
+
+        p:nth-child(1) {
+            color: red;
+        }
+        p:nth-child(3) {
+            color: blue;
+        }
+
+        p:last-child{ /*div içinde olması gerek*/
+            background-color: green;
+        } 
+
+        p:first-child{
+            background-color: aqua;
+        }
+
+        p:nth-child(even){ /*even tek*/
+            color: blue;
+        }
+        p:nth-child(odd){ /*odd çift*/
+            color: red;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, magnam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, magnam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, magnam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, magnam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, magnam.</p>
+    </div>
+</body>
+
+</html>

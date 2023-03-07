@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!--
+        16px standart
+        em= tüm yazım boyutları
+        rem= html etiketine göre
+        %= yüzdelik değer vermek
+        vw= viewport width 40vw = %40
+        vh= viewport height 10vh = %10
+     -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .background {
+            width: 40vw;
+            height: 10vh;
+            background: url(https://images.pexels.com/photos/14056298/pexels-photo-14056298.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load) center center;
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+            color: aliceblue;
+            align-items: center;
+            padding: 10rem;
+        }
+
+        h1 {
+            margin-bottom: 1rem;
+            font-size: 3rem;
+            color: brown;
+        }
+
+        p {
+            font-size: 2rem;  
+            letter-spacing: 3px;
+            color: brown;  
+        }
+        @media (max-width:900px) {
+            h1{
+                margin-bottom: 0.5rem;
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="background">
+        <h1>Shanty</h1>
+        <p>WELL COME TO THE JUNGLE</p>
+    </div>
+</body>
+
+</html>

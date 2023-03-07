@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+
+var value1 = 10; // değişir çünkü global memory son hafıza kaydeder class
+let value2 = 20; // unique id
+const value3 = 30; // unique id 
+
+if(true){
+    var value1 = 40;
+    let value2 = 50;
+    const value3 = 60;
+    console.log(value1,value2,value3);
+}
+console.log(value1,value2,value3);
+</script>
+</html>
